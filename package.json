@@ -1,0 +1,31 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.14.0",
+    "discord-button-page": "^6.2.0",
+    "discord-button-pages": "^1.1.9",
+    "discord-buttons": "^4.0.0-deprecated",
+    "discord-modals": "^1.3.9",
+    "discord-probot-transfer": "^0.0.7",
+    "discord.js": "^13.12.0",
+    "enmap": "^5.9.5",
+    "ffmpeg": "^0.0.4",
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.9.0",
+    "ms": "^2.1.3",
+    "node-pages": "^0.1.10",
+    "node-schedule": "^2.1.1",
+    "opus": "^0.0.0",
+    "prism-media": "^1.3.4",
+    "reconlx": "^2.5.6"
+  }
+}
