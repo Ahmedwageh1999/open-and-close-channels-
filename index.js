@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require('express'); /// go ahead to a shell and write npm i express just like that  / ahmed sn => bergo
 const app = express();
 app.listen(() => console.log('iq server'));
 app.use('/ping', (req, res) => {
