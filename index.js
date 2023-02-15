@@ -1,3 +1,10 @@
+const express = require('express');
+const app = express();
+app.listen(() => console.log('iq server'));
+app.use('/ping', (req, res) => {
+    res.send(new Date());
+});
+
 const {  Intents,  Collection, timeout, Discord, Message , PermissionsBitField, MessageEmbed} = require("discord.js"); // npm i discord.js
 const sleep = require('util').promisify(setTimeout)
 const Enmap = require("enmap")
